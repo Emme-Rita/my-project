@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- nav-bar -->
+
+    <nav class="flex justify-between px-4 border-b border-gray-300 shadow-2xl">
+        <div class="flex">
+            <div class="hidden md:block py-7 size-5" >
+                <ul class="flex flex-row gap-8 justify-center items-center ">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="instrutor.html">Tutor Dashboard</a></li>
+                </ul>
+            </div>
+            <svg class="w-3 md:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+            <!-- <img class="w-6" src="WhatsApp Image 2024-09-13 at 22.20.04_4feee3e7.jpg" alt=""> -->
+        </div>
+        <div class="flex justify-center w-20 py-3">
+            <img class="h-16" src="images/WhatsApp Image 2024-09-13 at 22.20.04_4feee3e7.jpg" alt="">
+            <p class="text-center font-bold">Traitz Tech</p>
+        </div>
+        <div class="flex gap-3">
+            <svg class="w-4 md:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+
+            <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+            <div class="hidden gap-3 py-5 md:block">
+                <button class="border bg-white text-black p-3 rounded-sm">Sign Up</button>         
+                <button class="border bg-black text-white p-3 rounded-sm">Log in</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+
+    <section class="hero p-2 ">
+        <div>
+            <img class=" h-45 " src="images/pexels-yaroslav-shuraev-5084674.jpg" alt="">
+        </div>
+        <div >
+           <h3 class="font-bold text-blue-400 text-center text-4xl">Welcome to Traitz Learning</h3> 
+           <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatem.</p>
+        </div>
+    </section>
+    <section class="main mt-5">
+        <div class="flex items-center justify-center relative bg-red-500">
+            <input class="border border-black pr-32 pl-2  rounded-md md:py-3 " type="text" placeholder="What do you want to learn ">
+            <svg class="w-3 absolute right-16 md:right-" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+        </div>
+    </section>
+    <section class="card  mt-5">
+        <div class="mySwiper">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide w-64  border rounded-lg shadow-md p-6 ">
+                    <img src="images/image.png" alt="">
+                    <P>Tailwind CSS for Beginners</P>
+                    <p>Instructor: </p>
+                    <p>duration: 4.5 Hrs </p>
+                    <p>cost: 5000XAF</p>
+                    <button class="border border-black py-1 px-4 rounded-md bg hover:bg-green-200" ><a class="font-bold" href="#">Enroll Now</a></button>
+                </div>
+                <div class=" swiper-slide w-30 bg-white border rounded-lg shadow-md p-6">
+                    <img src="images/image.png" alt="">
+                    <P>Tailwind CSS for Beginners</P>
+                    <p>Instructor: Foryoung Junoir</p>
+                    <p>duration: 7.5 Hrs </p>
+                    <p>cost: 5000XAF</p>
+                    <button class="border border-black py-1 px-4 rounded-md bg hover:bg-green-200" ><a class="font-bold" href="#">Enroll Now</a></button>
+                </div>
+                <div class=" swiper-slide w-30 bg-white border rounded-lg shadow-md p-6">
+                    <img src="images/image.png" alt="">
+                    <P>Tailwind CSS for Beginners</P>
+                    <p>Instructor: Achegnui Juven</p>
+                    <p>duration: 4.5 Hrs </p>
+                    <p>cost: 5000XAF</p>
+                    <button class="border border-black py-1 px-4 rounded-md bg hover:bg-green-200" ><a class="font-bold" href="#">Enroll Now</a></button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+    </section>
+
+    <!--  footer  -->
+
+    <footer class="bg-[#3118A1] p-4" >
+        <p class="text-center">Our mission is to develop our community with technology</p>
+        <div class="flex flex-col justify-center items-center">
+            <ul class="flex justify-between space-x-6">
+                <li><a href="https://traitz.tech/">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            <img class="h-28" src="images/WhatsApp Image 2024-09-13 at 22.20.04_4feee3e7.jpg" alt="">
+            <p>Bambili, Bamenda, Cameroon</p>
+        </div>
+        <p  class="text-center font-serif">Traitz Tech &copy;2024</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+       var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+  })
+    </script>
+</body>
+</html>
